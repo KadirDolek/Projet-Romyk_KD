@@ -1,2 +1,132 @@
 @use './_mixins' as *
 @use './_variables' as *
+
+body
+  background-color: rgb(255, 255, 255)
+  overflow-x: hidden
+
+.navbar
+  position: fixed
+  top: 0
+  left: 0
+  right: 0
+  width: 95%
+  margin: 0 auto
+  z-index: 1000
+  background-color: white
+  border-bottom: solid 1px rgb(207, 148, 173)
+
+  .container-fluid
+    width: 100%
+
+    .navbar-text
+      display: flex
+      justify-content: space-between
+      align-items: center
+      width: 100%
+      padding: 1rem
+      font-size: 20px
+
+      #navIMG
+        img
+          height: 22.5px
+
+      #AncreLien
+        display: flex
+        gap: 85px
+
+        #home, #about, #icecream, #services, #blog
+          text-decoration: none
+          font-weight: 500
+
+          &:hover
+            color: rgb(190, 102, 156)
+
+    #div3Nav
+      font-weight: 500
+      color: rgb(100, 100, 100)
+      display: flex
+      gap: 30px
+
+      p
+        display: flex
+        gap: 10px
+        font-size: 20px
+
+#hrNAV
+  width: 95%
+  margin-top: -5px
+  margin-bottom: 12.5%
+
+.sec1
+  display: flex
+  width: 100%
+  flex-wrap: wrap
+
+  #sec1div1
+    width: 940px
+    padding-left: 15%
+    padding-right: 10%
+
+    h2
+      font-size: 65px
+      font-weight: bold
+      color: rgb(0, 0, 0)
+      margin-bottom: 20px
+
+    p
+      font-weight: 400
+      margin-bottom: 30px
+      font-size: 20px
+
+    button
+      @include boutonRose
+      
+
+  #sec1div2
+    width: 940px
+
+    img
+      height: 80%
+
+.sec2
+  display: flex
+  width: 100%
+  flex-wrap: wrap
+  margin-right: 7.5%
+  justify-content: center
+
+  #sec2div1
+    width: 920px
+    display: flex
+    justify-content: end
+
+    img
+      height: 920px
+
+  #sec2div2
+    width: 940px
+    padding-right: 15%
+    margin-top: 7.5%
+    div
+      display: flex
+      position: relative
+
+      h3
+        display: flex
+        font-size: 50px
+        font-weight: bold
+        margin-bottom: 30px
+    #sec2trait::after
+      content: ""
+      border: 3px solid rgba(251, 138, 185, 0.493)
+      position: absolute
+      top: -40px
+      left: 450px
+      width: 70px
+    p
+      font-weight: 400
+      margin-bottom: 30px
+      font-size: 20px
+    button
+     @include boutonRose
