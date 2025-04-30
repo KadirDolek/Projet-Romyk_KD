@@ -22666,6 +22666,121 @@ html, body {
   margin-top: 5%;
 }
 
+#S5Carousel {
+  display: flex;
+  flex-direction: column;
+  padding-right: 15%;
+  padding-left: 15%;
+  margin-bottom: 10%;
+}
+#S5Carousel #titreS5 {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+#S5Carousel #titreS5 h3 {
+  font-size: 45px;
+  margin-bottom: 5%;
+}
+#S5Carousel #divCarousel {
+  width: 100%;
+  height: 400px;
+  background-color: white;
+  box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+#S5Carousel #divCarousel #textCarousel {
+  font-weight: 500;
+  display: flex;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 5%;
+}
+#S5Carousel #divCarousel #nomCarousel {
+  text-align: center;
+}
+#S5Carousel #divCarousel #imgCarousel {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: -70px;
+  left: 570px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+footer #footdiv1bis {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+footer #footdiv1bis #footdivajout {
+  line-height: 50px;
+}
+footer #footdiv1bis #footdivajout h3 {
+  margin-top: 5%;
+  font-size: 35px;
+  padding-bottom: 3%;
+  border-bottom: 1px solid white;
+  width: 60%;
+}
+footer #footdiv1bis #footdivajout form div {
+  border-bottom: 1px solid grey;
+}
+footer #footdiv1bis #footdivajout form div label {
+  margin-bottom: 0%;
+  margin-top: 7%;
+}
+footer #footdiv1bis #footdivajout form div input {
+  border: none;
+  background-color: black;
+}
+footer #footdiv1bis #footdivajout form button {
+  background-color: rgb(251, 138, 186);
+  border: none;
+  color: white;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 3.5px;
+  padding-bottom: 3.5px;
+  margin-top: 8%;
+  font-weight: bold;
+}
+footer #footdiv1bis #footdiv1 #footdiv2 {
+  display: flex;
+  gap: 10%;
+  width: 1000px;
+  margin-top: 2%;
+}
+footer #footdiv1bis #footdiv1 #footdiv2 p {
+  font-size: 20px;
+}
+footer #footdiv1bis #footdiv1 #footdiv3 {
+  width: 400px;
+  margin-top: 5%;
+}
+footer #footdiv1bis #footdiv1 #footdiv3 #div3text {
+  font-size: 20px;
+  justify-self: center;
+}
+footer #footdiv1bis #footdiv1 #footdiv3 textarea {
+  height: 30 px;
+}
+#textfinal {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.fa-location-dot {
+  color: rgb(232, 135, 176);
+}
+
 /*!
  * Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
