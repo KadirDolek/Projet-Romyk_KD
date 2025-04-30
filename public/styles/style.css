@@ -22753,28 +22753,75 @@ footer #footdiv1bis #footdivajout form button {
 }
 footer #footdiv1bis #footdiv1 #footdiv2 {
   display: flex;
-  gap: 10%;
+  gap: 5%;
   width: 1000px;
   margin-top: 2%;
+  flex-wrap: wrap;
 }
 footer #footdiv1bis #footdiv1 #footdiv2 p {
   font-size: 20px;
 }
 footer #footdiv1bis #footdiv1 #footdiv3 {
-  width: 400px;
+  width: 600px;
   margin-top: 5%;
+  margin-left: 25%;
+  position: relative;
 }
 footer #footdiv1bis #footdiv1 #footdiv3 #div3text {
-  font-size: 20px;
-  justify-self: center;
+  font-size: 25px;
+  font-weight: bold;
 }
 footer #footdiv1bis #footdiv1 #footdiv3 textarea {
-  height: 30 px;
+  height: 50px;
+  width: 450px;
 }
+footer #footdiv1bis #footdiv1 #footdiv3 button {
+  background-color: rgb(251, 138, 186);
+  border: none;
+  color: white;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 12.5px;
+  padding-bottom: 12.5px;
+  position: absolute;
+  font-weight: bold;
+}
+footer #footdiv1bis #footdiv1 #footdiv4 {
+  width: 835px;
+  display: flex;
+  justify-content: end;
+  margin-top: 5%;
+  gap: 5%;
+  font-size: 25px;
+}
+footer #footdiv1bis #footdiv1 #footdiv4 #fcbk {
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 50%;
+}
+footer #footdiv1bis #footdiv1 #footdiv4 .fa-brands {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: rgb(215, 215, 215);
+  border-radius: 50%;
+  color: black;
+}
+
 #textfinal {
   display: flex;
   justify-content: center;
   margin-bottom: 0;
+  padding-bottom: 20px;
+}
+
+#hrFINAL {
+  width: 90%;
+  color: rgb(235, 224, 224);
+  display: flex;
+  justify-content: center;
 }
 
 .fa-location-dot {
