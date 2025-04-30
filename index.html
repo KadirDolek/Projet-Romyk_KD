@@ -22,7 +22,7 @@
                 <a id="blog" href="#S5Carousel">Blog</a>
             </div>
             <div id="div3Nav">
-                    <p>Login <i class="fa-solid fa-user"></i></p>
+                    <p id="login-btn">Login</p> <i class="fa-solid fa-user"></i>
                     <p>
                     <i class="fa-regular fa-moon"></i>
                     <i class="fa-regular fa-sun"></i>
@@ -31,6 +31,19 @@
         </div>
     </nav>
     <hr id="hrNAV">
+    
+    <div id="myModal" className="modal">
+        <div id="modal-content" className="modal-content">
+          <span id="close-btn" className="close">&times;</span>
+          <h2>Inscription</h2>
+          <form>
+            <input type="email" id="email" name="email" placeholder="Email" required /> <br>
+            <input type="password" id="password" name="password" placeholder="Mot de passe" required /> <br>
+            <button type="submit">S'inscrire</button>
+          </form>
+        </div>
+      </div>
+
 <section id="n1" class="sec1">
     <div id="sec1div1">
         <h2>Ice <br> Cream</h2>
@@ -128,6 +141,8 @@
             </div>
         </div>
     </div>
+    <img id="imgtranspa1" src="./public/assets/img/img-6.png" alt="">
+    <img id="imgtranspa2" src="./public/assets/img/img-6.png" alt="">
 </section>
 <div id="seemorebtn">
     <button>

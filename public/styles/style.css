@@ -22367,6 +22367,9 @@ html, body {
   display: flex;
   gap: 30px;
 }
+.navbar .container-fluid #div3Nav #plogin {
+  margin-top: -3%;
+}
 .navbar .container-fluid #div3Nav p {
   display: flex;
   gap: 10px;
@@ -22423,6 +22426,7 @@ html, body {
   flex-wrap: wrap;
   margin-right: 7.5%;
   justify-content: center;
+  position: relative;
 }
 .sec2 #sec2div1 {
   width: 920px;
@@ -22826,6 +22830,25 @@ footer #footdiv1bis #footdiv1 #footdiv4 .fa-brands {
 
 .fa-location-dot {
   color: rgb(232, 135, 176);
+}
+
+#imgtranspa1 {
+  position: absolute;
+  width: 200px;
+  right: 0;
+  top: 1900px;
+}
+
+#imgtranspa2 {
+  position: absolute;
+  height: 200px;
+  bottom: -1900px;
+  left: 70px;
+}
+
+#myModal {
+  display: flex;
+  justify-content: center;
 }
 
 /*!
