@@ -22405,8 +22405,8 @@ html, body {
   border: none;
   border-radius: 5px;
   color: white;
-  padding-left: 35px;
-  padding-right: 35px;
+  padding-left: 45px;
+  padding-right: 45px;
   padding-top: 12.5px;
   padding-bottom: 12.5px;
 }
@@ -22466,8 +22466,8 @@ html, body {
   border: none;
   border-radius: 5px;
   color: white;
-  padding-left: 35px;
-  padding-right: 35px;
+  padding-left: 45px;
+  padding-right: 45px;
   padding-top: 12.5px;
   padding-bottom: 12.5px;
 }
@@ -22566,6 +22566,8 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: 8%;
+  padding-right: 8%;
 }
 .sec3 #sec3glace #sec3carte1 #sec3txt p:nth-of-type(2) {
   font-weight: bolder;
@@ -22584,6 +22586,84 @@ html, body {
   margin-right: 15%;
   margin-bottom: 5%;
   align-items: center;
+}
+
+#seemorebtn > button {
+  display: flex;
+  justify-self: center;
+  align-content: center;
+  background-color: rgb(251, 138, 186);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 12.5px;
+  padding-bottom: 12.5px;
+}
+
+.sec4 {
+  padding-left: 16%;
+  padding-right: 16%;
+  margin-top: 5%;
+}
+.sec4 .sec4-header h3 {
+  font-size: 45px;
+  position: relative;
+}
+.sec4 #sec4trait {
+  position: relative;
+}
+.sec4 #sec4trait::after {
+  content: "";
+  border: 3px solid rgba(251, 138, 185, 0.493);
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70px;
+}
+.sec4 #s4Alldiv {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 5%;
+  gap: 3%;
+}
+.sec4 #s4Alldiv #s4div1 {
+  width: 400px;
+  border: solid 2px rgb(250, 195, 217);
+  padding: 20px;
+  padding-bottom: 5px;
+}
+.sec4 #s4Alldiv #s4div1 img {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+.sec4 #s4Alldiv #s4div1 span {
+  font-weight: 500;
+  font-size: 20px;
+}
+.sec4 #s4Alldiv div p {
+  font-size: 18px;
+  padding-right: 5%;
+  padding-left: 5%;
+  margin-top: 5%;
+}
+
+#readmorebtn {
+  display: flex;
+  justify-self: center;
+  align-content: center;
+  background-color: rgb(251, 138, 186);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 12.5px;
+  padding-bottom: 12.5px;
+  margin-top: 5%;
 }
 
 /*!
