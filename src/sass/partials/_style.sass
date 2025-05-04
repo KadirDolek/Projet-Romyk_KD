@@ -90,9 +90,13 @@ html, body
 
   #sec1div2
     width: 940px
+    animation: bounce 0.6s ease infinite alternate
 
-    img
-      height: 80%
+  @keyframes bounce
+    from
+      transform: translateY(0)
+    to
+      transform: translateY(-10px)
 
 .sec2
   display: flex

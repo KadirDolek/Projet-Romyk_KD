@@ -37,7 +37,7 @@ closeBtn.addEventListener('click', () => {
     modal.style.display = 'none';
 });
 
-window.addEventListener('click', (event) => {
+document.addEventListener('click', (event) => {
     if (event.target === modal) {
         modal.style.display = 'none';
     }
