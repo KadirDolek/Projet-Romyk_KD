@@ -1,8 +1,11 @@
 
 let btnLogin = document.querySelector('#login-btn');
 let modal = document.querySelector('#myModal');
+let modal2 = document.querySelector('#myModal2')
 let closeBtn = document.querySelector('#close-btn');
+let closeBtn2 = document.querySelector('#close-btn2');
 let register = document.querySelector('.register-link')
+let login = document.querySelector('.login-link')
 console.log(btnLogin);
 console.log(register);
 
@@ -19,4 +22,21 @@ window.addEventListener('click', (event) => {
     if (event.target === modal) {
         modal.style.display = 'none';
     }
+    else if (event.target === modal2){
+        modal2.style.display = 'none'
+    }
+});
+
+register.addEventListener('click',()=>{
+    modal2.style.display = 'block';
+    modal.style.display = 'none';
+});
+
+closeBtn2.addEventListener('click', () => {
+    modal2.style.display = 'none';
+});
+
+login.addEventListener('click',()=>{
+    modal2.style.display = 'none';
+    modal.style.display = 'block';
 });
