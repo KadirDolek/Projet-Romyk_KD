@@ -8,14 +8,22 @@ let register = document.querySelector('.register-link')
 let login = document.querySelector('.login-link')
 let lune = document.querySelector('#lune')
 let soleil = document.querySelector('#soleil')
+let body = document.querySelector('body')
+console.log(body);
+
 
 lune.addEventListener('click',()=>{
     soleil.style.display = 'block'
     lune.style.display = 'none'
+    body.style.backgroundColor = 'black'
+    body.style.color = 'white'
+    
 })
 soleil.addEventListener('click',()=>{
     lune.style.display = 'block'
     soleil.style.display = 'none'
+    body.style.backgroundColor = 'white'
+    body.style.color = 'black'
 })
 
 

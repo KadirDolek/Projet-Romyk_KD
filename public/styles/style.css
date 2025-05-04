@@ -22395,7 +22395,6 @@ html, body {
 .sec1 #sec1div1 h2 {
   font-size: 65px;
   font-weight: bold;
-  color: rgb(0, 0, 0);
   margin-bottom: 20px;
 }
 .sec1 #sec1div1 p {
@@ -22501,7 +22500,6 @@ html, body {
 }
 .sec3 .sec3-header p {
   font-size: 18px;
-  color: rgb(0, 0, 0);
   align-items: center;
 }
 .sec3 #sec3trait {
@@ -22556,6 +22554,8 @@ html, body {
   position: relative;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
   align-items: center;
+  background-color: white;
+  color: black;
 }
 .sec3 #sec3glace #sec3carte1 #sec3txt p:first-of-type {
   margin-left: 30%;
@@ -22700,9 +22700,13 @@ html, body {
   padding-left: 5%;
   padding-right: 5%;
   margin-top: 5%;
+  color: black;
 }
 #S5Carousel #divCarousel #nomCarousel {
   text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
 }
 #S5Carousel #divCarousel #imgCarousel {
   display: flex;
