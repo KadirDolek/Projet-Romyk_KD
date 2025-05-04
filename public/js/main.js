@@ -10,6 +10,7 @@ let soleil = document.querySelector('#soleil');
 let body = document.querySelector('body');
 let carouselbtn = document.querySelectorAll('[data-carousel-button]'); 
 let carousel = document.querySelector('[data-carousel]');
+let divcar = document.querySelectorAll('#divcar')
 
 console.log(body);
 
@@ -19,6 +20,7 @@ lune.addEventListener('click',() => {
     lune.style.display = 'none';
     body.style.backgroundColor = 'black';
     body.style.color = 'white';
+    divcar.style.boxShadow = '0px 4px 7px 3px rgba(255, 255, 255, 0.86)';
 });
 
 soleil.addEventListener('click',() => {
@@ -26,6 +28,7 @@ soleil.addEventListener('click',() => {
     soleil.style.display = 'none';
     body.style.backgroundColor = 'white';
     body.style.color = 'black';
+    divcar.style.boxShadow = '2px 2px 7px 3px rgba(0, 0, 0, 0.1)';
 });
 
 
