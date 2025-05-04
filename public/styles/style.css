@@ -22386,6 +22386,7 @@ html, body {
   display: flex;
   width: 100%;
   flex-wrap: wrap;
+  margin-bottom: 10%;
 }
 .sec1 #sec1div1 {
   width: 940px;
@@ -22415,6 +22416,9 @@ html, body {
 .sec1 #sec1div2 {
   width: 940px;
   animation: bounce 0.6s ease infinite alternate;
+}
+.sec1 #sec1div2 img {
+  height: 420px;
 }
 @keyframes bounce {
   from {
