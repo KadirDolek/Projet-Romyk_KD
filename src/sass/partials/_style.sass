@@ -361,6 +361,7 @@ footer
     padding-bottom: 5%
     #footdivajout
       line-height: 50px
+      color: white
       h3
         margin-top: 5%
         font-size: 35px
@@ -371,11 +372,9 @@ footer
       form
         div
           border-bottom: 1px solid grey
-
           label
             margin-bottom: 0%
             margin-top: 7%
-
           input
             border: none
             background-color: black
@@ -389,7 +388,6 @@ footer
           padding-bottom: 3.5px
           margin-top: 8%
           font-weight: bold
-
     #footdiv1
       #footdiv2
         display: flex
@@ -399,7 +397,6 @@ footer
         flex-wrap: wrap
         p
           font-size: 20px
-
       #footdiv3
         width: 600px
         margin-top: 5%
@@ -408,9 +405,11 @@ footer
         #div3text
           font-size: 25px
           font-weight: bold
+          
         textarea
           height: 50px
           width: 450px
+          
         button
           background-color: rgb(251, 138, 186)
           border: none
@@ -472,8 +471,188 @@ footer
   bottom: -1900px
   left: 70px
 
+#login-btn
+  cursor: pointer
 
 #myModal
-  display: flex
-  justify-content: center
+  display: none
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  background-color: rgba(0, 0, 0, 0.7)
+  z-index: 1001
   
+  .modal-content
+    background-color: #222
+    margin: 10% auto
+    padding: 40px
+    border-radius: 5px
+    width: 90%
+    max-width: 700px
+    position: relative
+    color: white
+    padding-left: 100px
+    padding-right: 100px
+    
+    h2
+      text-align: center
+      margin-bottom: 30px
+      font-size: 28px
+      padding-bottom: 20px
+      border-bottom: 1px solid grey
+    
+    form
+      display: flex
+      flex-direction: column
+      
+      label
+        text-transform: uppercase
+        margin-bottom: 5px
+        font-size: 14px
+        color: #aaa
+      
+      input
+        background-color: transparent
+        border: none
+        border-bottom: 1px solid #555
+        padding: 10px 0
+        margin-bottom: 25px
+        color: white
+        outline: none
+        
+        &:focus
+          border-bottom: 1px solid #ff85b1
+      
+      button
+        background-color: #ff85b1
+        color: white
+        border: none
+        padding: 15px
+        font-weight: bold
+        border-radius: 3px
+        margin-top: 20px
+        cursor: pointer
+        
+        &:hover
+          background-color: #ffffff
+          color: #ff85b1
+    
+    .register-link
+      text-align: center
+      margin-top: 20px
+      font-size: 14px
+      color: #ffffff
+      a
+        color: #ffffff
+        text-decoration: none
+        &:hover
+          color: #ff85b1
+  
+  .close
+    position: absolute
+    top: 15px
+    right: 15px
+    font-size: 24px
+    color: #777
+    cursor: pointer
+    width: 30px
+    height: 30px
+    display: flex
+    align-items: center
+    justify-content: center
+    border-radius: 50%
+    
+    &:hover
+      color: white
+      background-color: rgba(255, 255, 255, 0.3)
+
+
+#myModal2
+  display: none
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  background-color: rgba(0, 0, 0, 0.7)
+  z-index: 1001
+
+  .modal-content2
+    background-color: #222
+    margin: 10% auto
+    padding: 40px
+    border-radius: 5px
+    width: 90%
+    max-width: 700px
+    position: relative
+    color: white
+    padding-left: 100px
+    padding-right: 100px
+
+    h2
+      text-align: center
+      margin-bottom: 30px
+      font-size: 28px
+      padding-bottom: 20px
+      border-bottom: 1px solid grey
+    form
+      display: flex
+      flex-direction: column
+      
+      label
+        text-transform: uppercase
+        margin-bottom: 5px
+        font-size: 14px
+        color: #aaa
+      
+      input
+        background-color: transparent
+        border: none
+        border-bottom: 1px solid #555
+        padding: 10px 0
+        margin-bottom: 25px
+        color: white
+        outline: none
+        
+        &:focus
+          border-bottom: 1px solid #ff85b1
+      
+      button
+        background-color: #ff85b1
+        color: white
+        border: none
+        padding: 15px
+        font-weight: bold
+        border-radius: 3px
+        margin-top: 20px
+        cursor: pointer
+        
+        &:hover
+          background-color: #ffffff
+          color: #ff85b1
+    .login-link
+      text-align: center
+      margin-top: 20px
+      font-size: 14px
+      color: #ffffff
+      a
+        color: #ffffff
+        text-decoration: none
+  .close2
+    position: absolute
+    top: 15px
+    right: 15px
+    font-size: 24px
+    color: #777
+    cursor: pointer
+    width: 30px
+    height: 30px
+    display: flex
+    align-items: center
+    justify-content: center
+    border-radius: 50%
+    &:hover
+      color: white
+      background-color: rgba(255, 255, 255, 0.3)    

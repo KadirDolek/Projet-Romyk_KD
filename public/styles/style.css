@@ -22725,6 +22725,7 @@ footer #footdiv1bis {
 }
 footer #footdiv1bis #footdivajout {
   line-height: 50px;
+  color: white;
 }
 footer #footdiv1bis #footdivajout h3 {
   margin-top: 5%;
@@ -22846,9 +22847,199 @@ footer #footdiv1bis #footdiv1 #footdiv4 .fa-brands {
   left: 70px;
 }
 
+#login-btn {
+  cursor: pointer;
+}
+
 #myModal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1001;
+}
+#myModal .modal-content {
+  background-color: #222;
+  margin: 10% auto;
+  padding: 40px;
+  border-radius: 5px;
+  width: 90%;
+  max-width: 700px;
+  position: relative;
+  color: white;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+#myModal .modal-content h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid grey;
+}
+#myModal .modal-content form {
   display: flex;
+  flex-direction: column;
+}
+#myModal .modal-content form label {
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #aaa;
+}
+#myModal .modal-content form input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #555;
+  padding: 10px 0;
+  margin-bottom: 25px;
+  color: white;
+  outline: none;
+}
+#myModal .modal-content form input:focus {
+  border-bottom: 1px solid #ff85b1;
+}
+#myModal .modal-content form button {
+  background-color: #ff85b1;
+  color: white;
+  border: none;
+  padding: 15px;
+  font-weight: bold;
+  border-radius: 3px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+#myModal .modal-content form button:hover {
+  background-color: #ffffff;
+  color: #ff85b1;
+}
+#myModal .modal-content .register-link {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #ffffff;
+}
+#myModal .modal-content .register-link a {
+  color: #ffffff;
+  text-decoration: none;
+}
+#myModal .modal-content .register-link a:hover {
+  color: #ff85b1;
+}
+#myModal .close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 24px;
+  color: #777;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
   justify-content: center;
+  border-radius: 50%;
+}
+#myModal .close:hover {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+#myModal2 {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1001;
+}
+#myModal2 .modal-content2 {
+  background-color: #222;
+  margin: 10% auto;
+  padding: 40px;
+  border-radius: 5px;
+  width: 90%;
+  max-width: 700px;
+  position: relative;
+  color: white;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+#myModal2 .modal-content2 h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid grey;
+}
+#myModal2 .modal-content2 form {
+  display: flex;
+  flex-direction: column;
+}
+#myModal2 .modal-content2 form label {
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #aaa;
+}
+#myModal2 .modal-content2 form input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #555;
+  padding: 10px 0;
+  margin-bottom: 25px;
+  color: white;
+  outline: none;
+}
+#myModal2 .modal-content2 form input:focus {
+  border-bottom: 1px solid #ff85b1;
+}
+#myModal2 .modal-content2 form button {
+  background-color: #ff85b1;
+  color: white;
+  border: none;
+  padding: 15px;
+  font-weight: bold;
+  border-radius: 3px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+#myModal2 .modal-content2 form button:hover {
+  background-color: #ffffff;
+  color: #ff85b1;
+}
+#myModal2 .modal-content2 .login-link {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #ffffff;
+}
+#myModal2 .modal-content2 .login-link a {
+  color: #ffffff;
+  text-decoration: none;
+}
+#myModal2 .close2 {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 24px;
+  color: #777;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+#myModal2 .close2:hover {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 /*!
