@@ -15,6 +15,7 @@ let divcar = document.querySelectorAll('#divcar')
 console.log(body);
 
 // Gestion du mode sombre/clair
+
 lune.addEventListener('click',() => {
     soleil.style.display = 'block';
     lune.style.display = 'none';
