@@ -22692,7 +22692,7 @@ html, body {
 }
 #S5Carousel .carousel {
   width: 100vw;
-  height: 100vh;
+  height: 75vh;
   position: relative;
 }
 #S5Carousel .carousel ul {
@@ -22704,16 +22704,29 @@ html, body {
   position: absolute;
   inset: 0;
   opacity: 0;
+  transform: translateX(100%);
+  transition: opacity 0.8s ease, transform 1s ease;
 }
 #S5Carousel .carousel .slide[data-active] {
   opacity: 1;
+  transform: translateX(0);
+  z-index: 1;
 }
-#S5Carousel .carousel .slide img {
-  display: block;
-  width: 20%;
-  height: 20%;
-  object-fit: contain;
-  object-position: center;
+#S5Carousel .carousel .slide div {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  width: 50%;
+  font-size: 18px;
+  border: none;
+  box-shadow: 2px 2px 7px 3px rgba(0, 0, 0, 0.1);
+  transform: translateY(100px);
+}
+#S5Carousel .carousel .slide div img {
+  width: 15%;
+  height: 15%;
+  margin-left: 42.5%;
+  margin-bottom: -5%;
 }
 
 footer {
@@ -23052,19 +23065,17 @@ footer #footdiv1bis #footdiv1 #footdiv4 .fa-brands {
   z-index: 2;
   background: none;
   border: none;
-  font-size: 4rem;
-  top: 50%;
+  font-size: 2rem;
+  top: 38%;
   transform: translateY(-50%);
   color: rgba(255, 255, 255, 0.5);
   cursor: pointer;
-  border-radius: 0.25rem;
-  padding: 0.5rem;
-  background-color: rgba(0, 0, 0, 0.1);
-  left: 30rem;
+  background-color: rgb(251, 138, 186);
+  left: 25%;
 }
 .carousel-button-prev:hover {
   color: white;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgb(0, 0, 0);
 }
 
 .carousel-button-next {
@@ -23072,19 +23083,35 @@ footer #footdiv1bis #footdiv1 #footdiv4 .fa-brands {
   z-index: 2;
   background: none;
   border: none;
-  font-size: 4rem;
-  top: 50%;
+  font-size: 2rem;
+  top: 38%;
   transform: translateY(-50%);
   color: rgba(255, 255, 255, 0.5);
   cursor: pointer;
-  border-radius: 0.25rem;
-  padding: 0.5rem;
-  background-color: rgba(0, 0, 0, 0.1);
-  right: 30rem;
+  background-color: rgb(251, 138, 186);
+  right: 25%;
 }
 .carousel-button-next:hover {
   color: white;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgb(0, 0, 0);
+}
+
+#textCarousel {
+  display: flex;
+  justify-content: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#nomCarousel {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 2%;
 }
 
 #soleil {

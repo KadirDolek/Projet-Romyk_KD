@@ -323,31 +323,50 @@ html, body
 #S5Carousel
   box-sizing: border-box
   margin-top: 7.5%
+
   h2
     display: flex
     justify-content: center
     font-weight: bold
     font-size: 45px
+
   .carousel
     width: 100vw
-    height: 100vh
+    height: 75vh
     position: relative
+
     ul
       margin: 0
       padding: 0
       list-style: none
+
     .slide
       position: absolute
       inset: 0
       opacity: 0
+      transform: translateX(100%)
+      transition: opacity 0.8s ease, transform 1s ease
+
       &[data-active]
         opacity: 1
-      img
-        display: block
-        width: 20%
-        height: 20%
-        object-fit: contain
-        object-position: center
+        transform: translateX(0)
+        z-index: 1
+      div
+        display: flex
+        flex-direction: column
+        justify-self: center
+        width: 50%
+        font-size: 18px
+        border: none
+        box-shadow: 2px 2px 7px 3px rgba(0, 0, 0, 0.1)
+        transform: translateY(100px)
+        img
+          width: 15%
+          height: 15%
+          margin-left: 42.5%
+          margin-bottom: -5%
+          
+
 
 
 
@@ -665,38 +684,47 @@ footer
   z-index: 2
   background: none
   border: none
-  font-size: 4rem
-  top: 50%
+  font-size: 2rem
+  top: 38%
   transform: translateY(-50%)
   color: rgba(255,255,255,0.5)
   cursor: pointer
-  border-radius: 0.25rem
-  padding: 0.5rem
-  background-color: rgba(0,0,0,0.1)
+  background-color: rgb(251, 138, 186)
   &:hover
     color: white
-    background-color: rgba(0,0,0,0.2)
-  left: 30rem
+    background-color: rgb(0, 0, 0)
+  left: 25%
 .carousel-button-next
   position: absolute
   z-index: 2
   background: none
   border: none
-  font-size: 4rem
-  top: 50%
+  font-size: 2rem
+  top: 38%
   transform: translateY(-50%)
   color: rgba(255,255,255,0.5)
   cursor: pointer
-  border-radius: 0.25rem
-  padding: 0.5rem
-  background-color: rgba(0,0,0,0.1)
+  background-color: rgb(251, 138, 186)
   &:hover
     color: white
-    background-color: rgba(0,0,0,0.2)
-  right: 30rem
+    background-color: rgb(0, 0, 0)
+  right: 25%
     
 
-
+#textCarousel
+  display: flex
+  justify-content: center
+  padding-left: 10%
+  padding-right: 10%
+  text-align: center
+  margin-top: 5%
+  margin-bottom: 5%
+#nomCarousel
+  display: flex
+  justify-content: center
+  font-weight: bold
+  font-size: 20px
+  margin-bottom: 2%
 
 
 
