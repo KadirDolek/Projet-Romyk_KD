@@ -6,8 +6,10 @@ let closeBtn = document.querySelector('#close-btn');
 let closeBtn2 = document.querySelector('#close-btn2');
 let register = document.querySelector('.register-link')
 let login = document.querySelector('.login-link')
-console.log(btnLogin);
-console.log(register);
+let lune = document.querySelector('#lune')
+let soleil = document.querySelector('#soleil')
+
+
 
 btnLogin.addEventListener('click', () => {
     modal.style.display = 'block';

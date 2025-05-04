@@ -23043,6 +23043,14 @@ footer #footdiv1bis #footdiv1 #footdiv4 .fa-brands {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
+#soleil {
+  color: red;
+}
+
+#lune {
+  color: orange;
+}
+
 /*!
  * Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
