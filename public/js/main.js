@@ -11,25 +11,27 @@ let body = document.querySelector('body');
 let carouselbtn = document.querySelectorAll('[data-carousel-button]'); 
 let carousel = document.querySelector('[data-carousel]');
 let divcar = document.querySelectorAll('#divcar')
+const burgerMenu = document.querySelector('.burger-menu');
+const navLinks = document.querySelector('#AncreLien');
 
 console.log(body);
 
 // Gestion du mode sombre/clair
 
-lune.addEventListener('click',() => {
+lune.addEventListener('click', () => {
     soleil.style.display = 'block';
     lune.style.display = 'none';
     body.style.backgroundColor = 'black';
     body.style.color = 'white';
-    divcar.style.boxShadow = '0px 4px 7px 3px rgba(255, 255, 255, 0.86)';
+    body.classList.add('dark-mode');
 });
 
-soleil.addEventListener('click',() => {
+soleil.addEventListener('click', () => {
     lune.style.display = 'block';
     soleil.style.display = 'none';
     body.style.backgroundColor = 'white';
     body.style.color = 'black';
-    divcar.style.boxShadow = '2px 2px 7px 3px rgba(0, 0, 0, 0.1)';
+    body.classList.remove('dark-mode'); 
 });
 
 
@@ -90,3 +92,20 @@ setInterval(() => {
     slides.children[nextIndex].dataset.active = true;
     delete activeSlide.dataset.active;
 }, 3000);
+
+
+if (burgerMenu) {
+    burgerMenu.addEventListener('click', () => {
+        burgerMenu.classList.toggle('active');
+        navLinks.classList.toggle('active');
+        document.body.style.overflow = navLinks.classList.contains('active') ? 'hidden' : '';
+    });
+    const navItems = document.querySelectorAll('#AncreLien a');
+    navItems.forEach(item => {
+        item.addEventListener('click', () => {
+            burgerMenu.classList.remove('active');
+            navLinks.classList.remove('active');
+            document.body.style.overflow = '';
+        });
+    });
+}
