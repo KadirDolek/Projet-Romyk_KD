@@ -22840,7 +22840,7 @@ footer #footdiv1bis #footdiv1 #footdiv4 .fa-brands {
   width: 90%;
   color: rgb(235, 224, 224);
   display: flex;
-  justify-content: center;
+  justify-self: center;
 }
 
 .fa-location-dot {
