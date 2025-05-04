@@ -322,6 +322,12 @@ html, body
 
 #S5Carousel
   box-sizing: border-box
+  margin-top: 7.5%
+  h2
+    display: flex
+    justify-content: center
+    font-weight: bold
+    font-size: 45px
   .carousel
     width: 100vw
     height: 100vh
@@ -342,8 +348,6 @@ html, body
         height: 20%
         object-fit: contain
         object-position: center
-
-
 
 
 
@@ -656,7 +660,7 @@ footer
 
 
 
-.carousel-button
+.carousel-button-prev
   position: absolute
   z-index: 2
   background: none
@@ -672,6 +676,24 @@ footer
   &:hover
     color: white
     background-color: rgba(0,0,0,0.2)
+  left: 30rem
+.carousel-button-next
+  position: absolute
+  z-index: 2
+  background: none
+  border: none
+  font-size: 4rem
+  top: 50%
+  transform: translateY(-50%)
+  color: rgba(255,255,255,0.5)
+  cursor: pointer
+  border-radius: 0.25rem
+  padding: 0.5rem
+  background-color: rgba(0,0,0,0.1)
+  &:hover
+    color: white
+    background-color: rgba(0,0,0,0.2)
+  right: 30rem
     
 
 

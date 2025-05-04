@@ -22682,6 +22682,13 @@ html, body {
 
 #S5Carousel {
   box-sizing: border-box;
+  margin-top: 7.5%;
+}
+#S5Carousel h2 {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 45px;
 }
 #S5Carousel .carousel {
   width: 100vw;
@@ -23040,7 +23047,7 @@ footer #footdiv1bis #footdiv1 #footdiv4 .fa-brands {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-.carousel-button {
+.carousel-button-prev {
   position: absolute;
   z-index: 2;
   background: none;
@@ -23053,8 +23060,29 @@ footer #footdiv1bis #footdiv1 #footdiv4 .fa-brands {
   border-radius: 0.25rem;
   padding: 0.5rem;
   background-color: rgba(0, 0, 0, 0.1);
+  left: 30rem;
 }
-.carousel-button:hover {
+.carousel-button-prev:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.carousel-button-next {
+  position: absolute;
+  z-index: 2;
+  background: none;
+  border: none;
+  font-size: 4rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  right: 30rem;
+}
+.carousel-button-next:hover {
   color: white;
   background-color: rgba(0, 0, 0, 0.2);
 }
