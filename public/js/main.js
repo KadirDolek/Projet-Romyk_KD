@@ -9,6 +9,15 @@ let login = document.querySelector('.login-link')
 let lune = document.querySelector('#lune')
 let soleil = document.querySelector('#soleil')
 
+lune.addEventListener('click',()=>{
+    soleil.style.display = 'block'
+    lune.style.display = 'none'
+})
+soleil.addEventListener('click',()=>{
+    lune.style.display = 'block'
+    soleil.style.display = 'none'
+})
+
 
 
 btnLogin.addEventListener('click', () => {
