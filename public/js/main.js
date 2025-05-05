@@ -100,7 +100,7 @@ if (burgerMenu) {
         navLinks.classList.toggle('active');
         document.body.style.overflow = navLinks.classList.contains('active') ? 'hidden' : '';
     });
-    const navItems = document.querySelectorAll('#AncreLien a');
+    let navItems = document.querySelectorAll('#AncreLien a');
     navItems.forEach(item => {
         item.addEventListener('click', () => {
             burgerMenu.classList.remove('active');
