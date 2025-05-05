@@ -113,15 +113,15 @@ html, body
     width: 920px
     display: flex
     justify-content: center
-    margin-left: 45px
 
     img
       height: 850px
 
   #sec2div2
-    width: 940px
+    width: 920px
     padding-right: 15%
     margin-top: 7.5%
+    margin-left: 0% !important
     div
       display: flex
       position: relative
@@ -272,6 +272,7 @@ html, body
   margin-top: 5%
 
   .sec4-header
+    margin-left: -70px
     h3
       font-size: 45px
       position: relative
@@ -293,6 +294,7 @@ html, body
     width: 100%
     margin-top: 5%
     gap: 3%
+    margin-left: 0
     #s4div1
       width: 400px
       border: solid 2px rgb(250, 195, 217)
@@ -809,13 +811,16 @@ footer
     width: 100%
     padding-left: 5%
     padding-right: 5%
+
     h2
       color: red
       display: flex
       justify-content: center
       font-size: 40px
+
     p
       text-align: center
+
     button
       margin-left: 35%
       margin-bottom: 10%
@@ -826,82 +831,84 @@ footer
     animation: bounce 0.6s ease infinite alternate
     display: flex
     justify-content: center
+
     img
       height: 700px
       width: 700px
-
-.sec2
-  display: flex
-  width: 100%
-  flex-wrap: wrap
-  margin-right: 7.5%
-  justify-content: center
-  position: relative
-
-  #sec2div1
-    width: 920px
+  .sec2
     display: flex
+    width: 100%
+    flex-wrap: wrap
+    margin-right: 7.5%
     justify-content: center
-    margin-left: 45px
+    position: relative
 
-    img
-      height: 650px
-
-  #sec2div2
-    width: 940px
-    margin-top: 7.5%
-    margin-left: 15%
-    div
+    #sec2div1
+      width: 920px
       display: flex
-      position: relative
       justify-content: center
+      margin-left: 45px
 
-      h3
+      img
+        height: 650px
+
+    #sec2div2
+      width: 940px
+      margin-top: 7.5%
+      margin-left: 15%
+
+      div
         display: flex
-        font-size: 40px
-        font-weight: bold
-        margin-bottom: 30px
+        position: relative
         justify-content: center
 
-    #sec2trait::after
-      content: ""
-      border: 3px solid rgba(251, 138, 185, 0.493)
-      position: absolute
-      top: -40px
-      left: 450px
-      width: 70px
+        h3
+          display: flex
+          font-size: 40px
+          font-weight: bold
+          margin-bottom: 30px
+          justify-content: center
+
+      #sec2trait::after
+        content: ""
+        border: 3px solid rgba(251, 138, 185, 0.493)
+        position: absolute
+        top: -40px
+        left: 450px
+        width: 70px
+
+      p
+        font-weight: 400
+        margin-bottom: 30px
+        font-size: 20px
+        text-align: center
+
+      button
+        @include boutonRose
+        margin-left: 35%
+
+  .sec3-header
     p
-      font-weight: 400
-      margin-bottom: 30px
-      font-size: 20px
-      text-align: center
-    button
-     @include boutonRose
-     margin-left: 35%
+      margin-left: 10%
 
-.sec3-header
-  p
-    margin-left: 10%
+  .sec4
+    h3
+      margin-left: 5%
 
+  #s4Alldiv
+    margin-left: 12.5%
 
-.sec4
-  h3
-    margin-left: 5%
-#s4Alldiv
-  margin-left: 12.5%
+  #footdiv2
+    font-size: 15px
+    display: flex
+    flex-wrap: wrap
+    margin-left: 8%
 
-#footdiv2
-  font-size: 15px
-  display: flex
-  flex-direction: column
-  margin-left: 22%
-#footdiv3
-  margin-left: 7.5% !important
+  #footdiv3
+    margin-left: 7.5% !important
 
-#footdiv4
-  margin-left: -30%
-
-
+  #footdiv4
+    margin-left: -30%
 
 
 @media (min-width: 767px) and (max-width: 1023px)
@@ -909,13 +916,16 @@ footer
     width: 100%
     padding-left: 5%
     padding-right: 5%
+    
     h2
       color: red
       display: flex
       justify-content: center
       font-size: 40px
+    
     p
       text-align: center
+    
     button
       margin-left: 40%
       margin-bottom: 10%
@@ -926,86 +936,90 @@ footer
     animation: bounce 0.6s ease infinite alternate
     display: flex
     justify-content: center
+    
     img
       height: 800px
       width: 800px
       margin-left: 10%
-.sec2
-  display: flex
-  width: 100%
-  flex-wrap: wrap
-  margin-right: 7.5%
-  justify-content: center
-  position: relative
 
-  #sec2div1
-    width: 920px
+  .sec2
     display: flex
+    width: 100%
+    flex-wrap: wrap
+    margin-right: 7.5%
     justify-content: center
-    margin-left: 45px
+    position: relative
 
-    img
-      height: 650px
-
-  #sec2div2
-    width: 940px
-    margin-top: 7.5%
-    margin-left: 15%
-    div
+    #sec2div1
+      width: 920px
       display: flex
-      position: relative
       justify-content: center
+      margin-left: 45px
 
-      h3
+      img
+        height: 650px
+
+    #sec2div2
+      width: 940px
+      margin-top: 7.5%
+      margin-left: 15%
+      
+      div
         display: flex
-        font-size: 40px
-        font-weight: bold
-        margin-bottom: 30px
+        position: relative
         justify-content: center
-        margin-left: 5%
 
-    #sec2trait::after
-      content: ""
-      border: 3px solid rgba(251, 138, 185, 0.493)
-      position: absolute
-      top: -40px
-      left: 450px
-      width: 70px
-    p
-      font-weight: 400
-      margin-bottom: 30px
-      font-size: 20px
-      text-align: center
-    button
-     @include boutonRose
-     margin-left: 35%
+        h3
+          display: flex
+          font-size: 40px
+          font-weight: bold
+          margin-bottom: 30px
+          justify-content: center
+          margin-left: 5%
 
-.sec3-header
-  margin-left: 25% !important
-  p
-    margin-left: 5%
+      #sec2trait::after
+        content: ""
+        border: 3px solid rgba(251, 138, 185, 0.493)
+        position: absolute
+        top: -40px
+        left: 450px
+        width: 70px
+      
+      p
+        font-weight: 400
+        margin-bottom: 30px
+        font-size: 20px
+        text-align: center
+      
+      button
+        @include boutonRose
+        margin-left: 35%
 
-
-.sec4
-  .sec4-header
-    margin-left: 12.5%
-  
-  h3
-    margin-left: 5%
-#s4Alldiv
-  margin-left: 20%
-
-#footdiv2
-  font-size: 15px
-  display: flex
-  flex-direction: column
-  margin-left: 34%
-#footdiv3
-  margin-left: 17.5% !important
-
-#footdiv4
-  margin-left: -20%
-  
+  .sec3-header
+    margin-left: 25% !important
     
+    p
+      margin-left: 5%
 
+  .sec4
+    .sec4-header
+      margin-left: 12.5%
+    
+    h3
+      margin-left: 5%
+
+  #s4Alldiv
+    margin-left: 20%
+
+  #footdiv2
+    font-size: 15px
+    display: flex
+    flex-direction: column
+    margin-left: 34%
+
+  #footdiv3
+    margin-left: 17.5% !important
+
+  #footdiv4
+    margin-left: -20%
  

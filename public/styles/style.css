@@ -22441,15 +22441,15 @@ html, body {
   width: 920px;
   display: flex;
   justify-content: center;
-  margin-left: 45px;
 }
 .sec2 #sec2div1 img {
   height: 850px;
 }
 .sec2 #sec2div2 {
-  width: 940px;
+  width: 920px;
   padding-right: 15%;
   margin-top: 7.5%;
+  margin-left: 0% !important;
 }
 .sec2 #sec2div2 div {
   display: flex;
@@ -22621,6 +22621,9 @@ html, body {
   padding-right: 16%;
   margin-top: 5%;
 }
+.sec4 .sec4-header {
+  margin-left: -70px;
+}
 .sec4 .sec4-header h3 {
   font-size: 45px;
   position: relative;
@@ -22643,6 +22646,7 @@ html, body {
   width: 100%;
   margin-top: 5%;
   gap: 3%;
+  margin-left: 0;
 }
 .sec4 #s4Alldiv #s4div1 {
   width: 400px;
@@ -23217,94 +23221,87 @@ footer #footdiv1bis #footdiv1 #footdiv4 .fa-brands {
     height: 700px;
     width: 700px;
   }
+  .sec2 {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-right: 7.5%;
+    justify-content: center;
+    position: relative;
+  }
+  .sec2 #sec2div1 {
+    width: 920px;
+    display: flex;
+    justify-content: center;
+    margin-left: 45px;
+  }
+  .sec2 #sec2div1 img {
+    height: 650px;
+  }
+  .sec2 #sec2div2 {
+    width: 940px;
+    margin-top: 7.5%;
+    margin-left: 15%;
+  }
+  .sec2 #sec2div2 div {
+    display: flex;
+    position: relative;
+    justify-content: center;
+  }
+  .sec2 #sec2div2 div h3 {
+    display: flex;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+  .sec2 #sec2div2 #sec2trait::after {
+    content: "";
+    border: 3px solid rgba(251, 138, 185, 0.493);
+    position: absolute;
+    top: -40px;
+    left: 450px;
+    width: 70px;
+  }
+  .sec2 #sec2div2 p {
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .sec2 #sec2div2 button {
+    background-color: rgb(251, 138, 186);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+    margin-left: 35%;
+  }
+  .sec3-header p {
+    margin-left: 10%;
+  }
+  .sec4 h3 {
+    margin-left: 5%;
+  }
+  #s4Alldiv {
+    margin-left: 12.5%;
+  }
+  #footdiv2 {
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 8%;
+  }
+  #footdiv3 {
+    margin-left: 7.5% !important;
+  }
+  #footdiv4 {
+    margin-left: -30%;
+  }
 }
-.sec2 {
-  display: flex;
-  width: 100%;
-  flex-wrap: wrap;
-  margin-right: 7.5%;
-  justify-content: center;
-  position: relative;
-}
-.sec2 #sec2div1 {
-  width: 920px;
-  display: flex;
-  justify-content: center;
-  margin-left: 45px;
-}
-.sec2 #sec2div1 img {
-  height: 650px;
-}
-.sec2 #sec2div2 {
-  width: 940px;
-  margin-top: 7.5%;
-  margin-left: 15%;
-}
-.sec2 #sec2div2 div {
-  display: flex;
-  position: relative;
-  justify-content: center;
-}
-.sec2 #sec2div2 div h3 {
-  display: flex;
-  font-size: 40px;
-  font-weight: bold;
-  margin-bottom: 30px;
-  justify-content: center;
-}
-.sec2 #sec2div2 #sec2trait::after {
-  content: "";
-  border: 3px solid rgba(251, 138, 185, 0.493);
-  position: absolute;
-  top: -40px;
-  left: 450px;
-  width: 70px;
-}
-.sec2 #sec2div2 p {
-  font-weight: 400;
-  margin-bottom: 30px;
-  font-size: 20px;
-  text-align: center;
-}
-.sec2 #sec2div2 button {
-  background-color: rgb(251, 138, 186);
-  border: none;
-  border-radius: 5px;
-  color: white;
-  padding-left: 45px;
-  padding-right: 45px;
-  padding-top: 12.5px;
-  padding-bottom: 12.5px;
-  margin-left: 35%;
-}
-
-.sec3-header p {
-  margin-left: 10%;
-}
-
-.sec4 h3 {
-  margin-left: 5%;
-}
-
-#s4Alldiv {
-  margin-left: 12.5%;
-}
-
-#footdiv2 {
-  font-size: 15px;
-  display: flex;
-  flex-direction: column;
-  margin-left: 22%;
-}
-
-#footdiv3 {
-  margin-left: 7.5% !important;
-}
-
-#footdiv4 {
-  margin-left: -30%;
-}
-
 @media (min-width: 767px) and (max-width: 1023px) {
   #sec1div1 {
     width: 100%;
@@ -23336,101 +23333,94 @@ footer #footdiv1bis #footdiv1 #footdiv4 .fa-brands {
     width: 800px;
     margin-left: 10%;
   }
+  .sec2 {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-right: 7.5%;
+    justify-content: center;
+    position: relative;
+  }
+  .sec2 #sec2div1 {
+    width: 920px;
+    display: flex;
+    justify-content: center;
+    margin-left: 45px;
+  }
+  .sec2 #sec2div1 img {
+    height: 650px;
+  }
+  .sec2 #sec2div2 {
+    width: 940px;
+    margin-top: 7.5%;
+    margin-left: 15%;
+  }
+  .sec2 #sec2div2 div {
+    display: flex;
+    position: relative;
+    justify-content: center;
+  }
+  .sec2 #sec2div2 div h3 {
+    display: flex;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    justify-content: center;
+    margin-left: 5%;
+  }
+  .sec2 #sec2div2 #sec2trait::after {
+    content: "";
+    border: 3px solid rgba(251, 138, 185, 0.493);
+    position: absolute;
+    top: -40px;
+    left: 450px;
+    width: 70px;
+  }
+  .sec2 #sec2div2 p {
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .sec2 #sec2div2 button {
+    background-color: rgb(251, 138, 186);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+    margin-left: 35%;
+  }
+  .sec3-header {
+    margin-left: 25% !important;
+  }
+  .sec3-header p {
+    margin-left: 5%;
+  }
+  .sec4 .sec4-header {
+    margin-left: 12.5%;
+  }
+  .sec4 h3 {
+    margin-left: 5%;
+  }
+  #s4Alldiv {
+    margin-left: 20%;
+  }
+  #footdiv2 {
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 34%;
+  }
+  #footdiv3 {
+    margin-left: 17.5% !important;
+  }
+  #footdiv4 {
+    margin-left: -20%;
+  }
 }
-.sec2 {
-  display: flex;
-  width: 100%;
-  flex-wrap: wrap;
-  margin-right: 7.5%;
-  justify-content: center;
-  position: relative;
-}
-.sec2 #sec2div1 {
-  width: 920px;
-  display: flex;
-  justify-content: center;
-  margin-left: 45px;
-}
-.sec2 #sec2div1 img {
-  height: 650px;
-}
-.sec2 #sec2div2 {
-  width: 940px;
-  margin-top: 7.5%;
-  margin-left: 15%;
-}
-.sec2 #sec2div2 div {
-  display: flex;
-  position: relative;
-  justify-content: center;
-}
-.sec2 #sec2div2 div h3 {
-  display: flex;
-  font-size: 40px;
-  font-weight: bold;
-  margin-bottom: 30px;
-  justify-content: center;
-  margin-left: 5%;
-}
-.sec2 #sec2div2 #sec2trait::after {
-  content: "";
-  border: 3px solid rgba(251, 138, 185, 0.493);
-  position: absolute;
-  top: -40px;
-  left: 450px;
-  width: 70px;
-}
-.sec2 #sec2div2 p {
-  font-weight: 400;
-  margin-bottom: 30px;
-  font-size: 20px;
-  text-align: center;
-}
-.sec2 #sec2div2 button {
-  background-color: rgb(251, 138, 186);
-  border: none;
-  border-radius: 5px;
-  color: white;
-  padding-left: 45px;
-  padding-right: 45px;
-  padding-top: 12.5px;
-  padding-bottom: 12.5px;
-  margin-left: 35%;
-}
-
-.sec3-header {
-  margin-left: 25% !important;
-}
-.sec3-header p {
-  margin-left: 5%;
-}
-
-.sec4 .sec4-header {
-  margin-left: 12.5%;
-}
-.sec4 h3 {
-  margin-left: 5%;
-}
-
-#s4Alldiv {
-  margin-left: 20%;
-}
-
-#footdiv2 {
-  font-size: 15px;
-  display: flex;
-  flex-direction: column;
-  margin-left: 34%;
-}
-
-#footdiv3 {
-  margin-left: 17.5% !important;
-}
-
-#footdiv4 {
-  margin-left: -20%;
-}
-
 /*!
  * Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
