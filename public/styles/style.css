@@ -23242,6 +23242,7 @@ footer #footdiv1bis #footdiv1 #footdiv4 .fa-brands {
     width: 940px;
     margin-top: 7.5%;
     margin-left: 15%;
+    padding-right: 0;
   }
   .sec2 #sec2div2 div {
     display: flex;
@@ -23254,6 +23255,7 @@ footer #footdiv1bis #footdiv1 #footdiv4 .fa-brands {
     font-weight: bold;
     margin-bottom: 30px;
     justify-content: center;
+    margin-left: 7.5%;
   }
   .sec2 #sec2div2 #sec2trait::after {
     content: "";
@@ -23278,7 +23280,7 @@ footer #footdiv1bis #footdiv1 #footdiv4 .fa-brands {
     padding-right: 45px;
     padding-top: 12.5px;
     padding-bottom: 12.5px;
-    margin-left: 35%;
+    margin-left: 40%;
   }
   .sec3-header p {
     margin-left: 10%;
@@ -23287,13 +23289,14 @@ footer #footdiv1bis #footdiv1 #footdiv4 .fa-brands {
     margin-left: 5%;
   }
   #s4Alldiv {
-    margin-left: 12.5%;
+    margin-left: 25%;
   }
   #footdiv2 {
     font-size: 15px;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 8%;
+    margin-left: 22%;
+    flex-direction: column;
   }
   #footdiv3 {
     margin-left: 7.5% !important;
@@ -23353,7 +23356,7 @@ footer #footdiv1bis #footdiv1 #footdiv4 .fa-brands {
   .sec2 #sec2div2 {
     width: 940px;
     margin-top: 7.5%;
-    margin-left: 15%;
+    margin-left: 15% !important;
   }
   .sec2 #sec2div2 div {
     display: flex;
@@ -23366,7 +23369,7 @@ footer #footdiv1bis #footdiv1 #footdiv4 .fa-brands {
     font-weight: bold;
     margin-bottom: 30px;
     justify-content: center;
-    margin-left: 5%;
+    margin-left: 7.5%;
   }
   .sec2 #sec2div2 #sec2trait::after {
     content: "";
@@ -23391,7 +23394,7 @@ footer #footdiv1bis #footdiv1 #footdiv4 .fa-brands {
     padding-right: 45px;
     padding-top: 12.5px;
     padding-bottom: 12.5px;
-    margin-left: 35%;
+    margin-left: 40%;
   }
   .sec3-header {
     margin-left: 25% !important;
@@ -23406,7 +23409,7 @@ footer #footdiv1bis #footdiv1 #footdiv4 .fa-brands {
     margin-left: 5%;
   }
   #s4Alldiv {
-    margin-left: 20%;
+    margin-left: 20% !important;
   }
   #footdiv2 {
     font-size: 15px;
